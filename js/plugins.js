@@ -22,3 +22,6 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+$().ready(function(){
+  $('input.ss-q-checkbox').prettyCheckable();
+});
