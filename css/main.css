@@ -643,6 +643,16 @@ p {
 a {
   color: #6cc537;
 }
+.banner-link {
+  display: block;
+  background-color: #333333;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 18px;
+}
+.banner-link:after {
+  content: ' »';
+}
 .container {
   max-width: 970px;
   margin: 0 auto;
